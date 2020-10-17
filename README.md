@@ -1,7 +1,14 @@
-#### Cloudflare General Coding Assignment 2020
+### Cloudflare General Coding Assignment 2020
 
-##### Requirement
-Following tasks are expected -
+Hello!
+
+Welcome to my version of [Linktr.ee](https://linktr.ee/).
+It's built by using cloudflare's [wrangler](https://github.com/cloudflare/wrangler) to create a worker from [router template](https://github.com/cloudflare/worker-template-router).
+
+You can check out the demo [here - https://worker.nachiketsd.workers.dev/](https://worker.nachiketsd.workers.dev/)
+
+##### Requirements
+Following tasks were expected -
 1. Generate JSON API
 2. Serve HTML Page
 
