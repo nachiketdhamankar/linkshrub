@@ -7,8 +7,9 @@ class TitleTransformer {
      * @param element
      */
     element(element) {
-        const name = "Nachiket SD"
-        element.setInnerContent(name)
+        const name = "@nachiketsd"
+        element.setInnerContent(name + "|Linktree")
     }
 }
+
 module.exports = TitleTransformer
