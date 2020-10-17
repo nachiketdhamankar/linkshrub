@@ -9,8 +9,8 @@ Following tasks are expected -
 - [x] JSON API
 
 - [ ] HTML Page
-    - [ ] Retrieve Page
-    - [ ] Get the links from your previously deployed JSON response
+    - [x] Retrieve Page
+    - [x] Get the links from your previously deployed JSON response
     - [ ] Use HTMLRewriter to add these links to the static HTML page
     - [ ] Return the transformed HTML page from the Worker
       
