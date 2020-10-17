@@ -12,7 +12,7 @@ class LinksTransformer {
      * @returns {Promise<void>}
      */
     async element(element) {
-        const newContent = this.links.map(link => `<a href=${link.url}>${link.name}</a>`).join("")
+        const newContent = this.links.map(link => `<a href=${link.url} target="_blank">${link.name}</a>`).join("")
         element.setInnerContent(newContent, {html: true})
     }
 }

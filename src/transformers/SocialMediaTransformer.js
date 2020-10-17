@@ -13,8 +13,9 @@ class SocialMediaTransformer {
      */
     async element(element) {
         element.removeAttribute("style")
-        const socialMediaLinksHtml = this.socialLinks.map(link => `<a href=${link.url}><img src=${link.icon}></a>`).join("")
-        element.setInnerContent(socialMediaLinksHtml, {html:true})
+        const socialMediaLinksHtml = this.socialLinks.map(link => `<a href=${link.url} title="${link.name}"><img src=${link.icon}></a>`).join("")
+        element.setInnerContent(socialMediaLinksHtml, {html: true})
     }
 }
+
 module.exports = SocialMediaTransformer
