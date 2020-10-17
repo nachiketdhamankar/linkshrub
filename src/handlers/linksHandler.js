@@ -1,3 +1,4 @@
+const links = require('../dao/getLinks')
 /**
  * Returns a JSON of an array of links
  * @param request
