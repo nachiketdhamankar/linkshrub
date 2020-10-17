@@ -1,0 +1,6 @@
+*/worker/node_modules/
+*/worker/
+*/.cargo-ok
+*/package-lock.json
+.idea/
+*//.node_modules
