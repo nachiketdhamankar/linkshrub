@@ -17,10 +17,10 @@ Following tasks are expected -
             - [x] Avatar
             - [x] Name
 
-- [ ] Extra Credit
-    - [ ] Social Links
-    - [ ] Update Title
-    - [ ] Change background color
+- [x] Extra Credit
+    - [x] Social Links
+    - [x] Update Title
+    - [x] Change background color
       
 ##### JSON API
 - Used [wrangler](https://github.com/cloudflare/wrangler) to create a worker from [router template](https://github.com/cloudflare/worker-template-router)
